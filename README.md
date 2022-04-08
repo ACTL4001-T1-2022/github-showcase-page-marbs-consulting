@@ -77,3 +77,5 @@ This analysis was conducted through the linked excel [document](Economic_Impact_
 ![](Images/Final_Team_Selection.png)
 
 ## Sources of Revenue
+Since only a handful of Raritan players are part of the national team, it's an opportunity to showcase other under-utilised players, assuming their guaranteed acceptance into borrowing teams. Loans can be up to 2 years per player, and the lending revenue is projected as follows:
+![image](https://user-images.githubusercontent.com/102939582/162356659-332dbe49-fed9-458e-8b4c-34c2dae93b07.png)
