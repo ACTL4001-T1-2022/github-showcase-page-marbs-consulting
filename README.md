@@ -10,23 +10,31 @@ building a football “brand” on the economy. We hope to provide insight into 
 # How did we choose our International Football Team?
 
 ## Criteria for Selection
+A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
+	Goals
+	Shots from free kicks
+	Percentage of passes completed 
+	Percentage of passes completed within 15-30 yards
+	Number of times where a pass was blocked
+	Goals scored against 
+	Penalty kicks missed 
 
-please insert short summary here, perhaps include a few important images ie) tables, graphs etc
-then embed the data, code or excel files used as I have done below 
 
 ## Probability Ranges of the "Success" being Competitive
 
-please insert short summary here, perhaps include a few important images ie) tables, graphs etc
-then embed the data, code or excel files used as I have done below 
+Assuming constant and independent probabilities from year to year, they were calculated as follows:
+![image](https://user-images.githubusercontent.com/102939582/162353720-439c4d18-5484-4d2b-9150-02f39005e750.png)
+
 
 ## Spending on Assembling Team
-please insert short summary here, perhaps include a few important images ie) tables, graphs etc
-then embed the data, code or excel files used as I have done below 
+Projections of salaries and expenses were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
+![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png)
+
 
 ## Direct Team Revenues
+Revenue is found to follow an exponential trend, and highly correlated with social media followers and league attendance. Improving these aspects will lead to rapidly inreasing revenue in matchday and commercial areas, despite limited growth in the first few years until 2023.
+![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
 
-please insert short summary here, perhaps include a few important images ie) tables, graphs etc
-then embed the data, code or excel files used as I have done below 
 
 # Economic Impact
 
