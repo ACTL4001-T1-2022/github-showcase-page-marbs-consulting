@@ -11,13 +11,13 @@ building a football “brand” on the economy. We hope to provide insight into 
 
 ## Criteria for Selection
 A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
-	Goals
-	Shots from free kicks
-	Percentage of passes completed 
-	Percentage of passes completed within 15-30 yards
-	Number of times where a pass was blocked
-	Goals scored against 
-	Penalty kicks missed 
+- Goals
+- Shots from free kicks
+- Percentage of passes completed 
+- Percentage of passes completed within 15-30 yards
+- Number of times where a pass was blocked
+- Goals scored against 
+- Penalty kicks missed 
 
 
 ## Probability Ranges of the "Success" being Competitive
