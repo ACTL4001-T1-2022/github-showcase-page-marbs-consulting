@@ -27,7 +27,7 @@ Assuming constant and independent probabilities from year to year, they were cal
 
 
 ## Spending on Assembling Team
-Projections of salaries and expenses were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
+Projections of salaries and expenses in [document](Economic_Impact_and_Implementation_Plan_Analysis/MARBS - Salary, revenue and expenses analysis and projections.xlsx) were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
 ![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png)
 The model used for salary projection is a multiple linear regression, which considers inflation, team rank and a bonus factor if the team wins the championship for that year.
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png)
@@ -36,7 +36,7 @@ The model used for salary projection is a multiple linear regression, which cons
 ## Direct Team Revenues
 Revenue is found to follow an exponential trend, and highly correlated with social media followers and league attendance. Improving these aspects will lead to rapidly inreasing revenue in matchday and commercial areas, despite limited growth in the first few years until 2023.
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
-
+To see the detailed calculations, go to [document](Economic_Impact_and_Implementation_Plan_Analysis/MARBS - Salary, revenue and expenses analysis and projections.xlsx)
 
 # Economic Impact
 
