@@ -36,7 +36,7 @@ The model used for salary projection is a multiple linear regression, which cons
 ## Direct Team Revenues
 Revenue is found to follow an exponential trend, and highly correlated with social media followers and league attendance. Improving these aspects will lead to rapidly inreasing revenue in matchday and commercial areas, despite limited growth in the first few years until 2023.
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
-To see the detailed calculations, go to [Team Revenue Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS - Salary, revenue and expenses analysis and projections.xlsx')
+To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expenses%20analysis%20and%20projections.xlsx')
 
 # Economic Impact
 
