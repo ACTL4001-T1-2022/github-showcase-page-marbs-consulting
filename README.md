@@ -88,6 +88,7 @@ The model used for salary projection is a multiple linear regression, which cons
 
 ## Direct Team Revenues
 Revenue is found to follow an exponential trend, and highly correlated with social media followers and league attendance. Improving these aspects will lead to rapidly inreasing revenue in matchday and commercial areas, despite limited growth in the first few years until 2023.
+
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
 
 To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expenses%20analysis%20and%20projections.xlsx')
@@ -99,11 +100,11 @@ To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impac
 
 ## Impact on GDP
 
-The impact of the implementation plan on GDP was modelled through a linear regression using Year, Household Savings and Profit as predictors. Healthcare was forecasted using an ARIMA (0,1,0) model with drift, while revenue and expenses were forecasted according to benchmark countries. The following regression model was used:
+The impact of the implementation plan on GDP was modelled through a linear regression using Year, Household Savings and Profit as predictors. Healthcare was forecasted using an ARIMA (0,1,0) model with drift, while revenue and expenses were forecasted according to benchmark countries as discussed above. Profit was then derived from revnue and expenses. The following regression model was used:
 
 ![](Images/GDP_reg_equation.png)
 
-This was used to predict the GDP per capita for 2021 to 2031. Furthermore, GDP was forecasted using a time series with an ARIMA (0,1,0) model with drift to compare the difference in GDP if Rarita does not form a national team. 
+This was used to predict the GDP per capita for 2021 to 2031. Furthermore, GDP was forecasted using a time series with an ARIMA (0,1,0) model with drift in order to compare the difference in GDP if Rarita did not form a national team. 
 
 The output produced is visualised in the following graph, depicting that in the long term the introduction of an International Football team will lead to an increase in GDP. 
 
@@ -132,6 +133,7 @@ The [code](Economic_Impact_Code.ipynb) and data used to create these insights ca
 ## Impact on Rarita Provinces
 
 Through analysis and manipulation in excel the respective impact of GDP on each province was determined as can be seen in the following graph and table. 
+
 
 ![](Images/GDP_per_province.png)
 
