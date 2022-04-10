@@ -132,14 +132,39 @@ The [code](Economic_Impact_Code.ipynb) and data used to create these insights ca
 
 ## Impact on Rarita Provinces
 
-Through analysis and manipulation in excel the respective impact of GDP on each province was determined as can be seen in the following graph and table. 
+East Rarita is the wealthiest province, with a GDP per capita 135% greater than Central Rarita and 410% greater than West Rarita in 2020. Through our implementation plan we aim to lessen the gap by predominately hiring staff from West/Central Rarita, targeting businesses from West/Central Rarita through commercials and as sponsors of our team and by preferencing these locations for future investment projects such as stadiums, soccer schools, merchandise warehouses and TV series. 
+
+As seen in below, whilst the GDP of all provinces are increasing, Central Rarita and West Rarita have experienced a respective 84.77% and 97.90% increase in GDP per capita from 2021-2031 as opposed to 30.27% for East Rarita.
 
 
 ![](Images/GDP_per_province.png)
 
 ![](Images/GDP_per_province_table.png)
 
-This analysis was conducted through the linked excel [document](Economic_Impact_and_Implementation_Plan_Analysis/Rarita_GDP_Economic_Impact.xlsx) while further explanation of assumptions and how this was calculated can be seen in Appendix Q of our [report](MARBS-Rarita-FSA-League-Report-2022.pdf).
+
+In order to calculate the respective impact of GDP on each province various assumptions were used, which are outlined in the following methodology
+
+### Methodology used to determine the impact on Rarita Provinces
+1)  The population of Rarita from 2021-2031 was projected using a [time series](Economic%20Impact%20Code.ipynb)
+
+2)  To ascertain how the population would be distributed within Rarita’s various provinces, the percentage of population residing in each province was calculated from 2011-2021. The average population percentage from 2011-2021 was assumed to demonstrate how the population would be distributed between the provinces in 2021-2031.
+![](Images/Percentage_Pop.png)
+
+3)  Using this average percentage, population per province was calculated as seen in the following table.
+![](Images/Pop_per_province.png)
+
+4)  To calculate the total GDP of Rarita from 2021-2031 the forecasted population was multiplied with the predicted GDP per capita. The next step was to determine the percentage of GDP attributable to each province from 2021-2031. The percentage of total GDP for each province was calculated for 2011-2020. It can be seen in the table below that East Rarita’s percentage of total GDP was increasing at the highest rate, followed by West Rarita, with Central Rarita’s percentage of GDP decreasing.
+![](Images/percentage_gdp.png)
+
+5)  As our implementation plan has a focus on decreasing the wealth gap between the provinces, percentage of total GDP per province for 2021-2031 was calculated in accordance. It was assumed that from 2021-2024 the percentage of GDP per province would remain that same as it did in 2020. This is because these years mark the infancy of our newly formed International Team, whilst soccer revenues remained low. However, from 2025-2031 the percentage of total GDP in Central Rarita was assumed to grow at a rate of 1.5% p.a. and the percentage of total GDP in West Rarita was assumed to grow at a rate of 2.5% p.a.
+![](Images/percentage_gdp_projected.png)
+
+6) Using these assumptions, we were able to determine the total GDP per province from 2021-2031
+![](Images/tot_gdp.png)
+
+7) Finally, GDP per capita was calculated as Total_GDP_t/Population_t
+
+This analysis was conducted through the linked [excel document](Economic_Impact_and_Implementation_Plan_Analysis/Rarita_GDP_Economic_Impact.xlsx) 
 
 ![](gifs/soccer_funny.gif)
 
