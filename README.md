@@ -20,6 +20,16 @@ A lasso regression model using performance features (e.g., tournament shooting, 
 - Goals scored against 
 - Penalty kicks missed 
 
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/86867548/162596875-e7c37fd8-9ab4-4cd3-a395-37b38f5457a6.png">
+
+The high R-squared score and cross validation score suggested that these variables were good predictors of performance. Out of all the models we created, this was the one which indicated the highest accuracy. 
+
+We also qualitatively considered the effect of these to consider how effective they were. For example, the goals scored against (the goalkeeper) should be a strong indicator of how well a goalkeeper might perform and makes sense to be included. It should be noted that we did take into account the data limitations, where further detail is provided in that section of the report. 
+
+All the Raritan players were processed through the model again, to select the ideal players that we would use to form our team. 
+
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/86867548/162597021-8a2d556c-72ac-47f5-8e8f-1b7794e0677c.png">
+
 ---
 
 ## Probability Ranges of the "Success" being Competitive
@@ -33,6 +43,7 @@ Assuming constant and independent probabilities from year to year, they were cal
 ## Spending on Assembling Team
 Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
 ![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png)
+
 The model used for salary projection is a multiple linear regression, which considers inflation, team rank and a bonus factor if the team wins the championship for that year.
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png)
 
