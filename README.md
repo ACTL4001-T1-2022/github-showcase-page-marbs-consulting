@@ -9,6 +9,7 @@ building a football “brand” on the economy. We hope to provide insight into 
 
 # How did we choose our International Football Team?
 
+
 ## Criteria for Selection
 A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
 - Goals
@@ -19,11 +20,14 @@ A lasso regression model using performance features (e.g., tournament shooting, 
 - Goals scored against 
 - Penalty kicks missed 
 
+---
 
 ## Probability Ranges of the "Success" being Competitive
 
 Assuming constant and independent probabilities from year to year, they were calculated as follows:
 ![image](https://user-images.githubusercontent.com/102939582/162353720-439c4d18-5484-4d2b-9150-02f39005e750.png)
+
+---
 
 
 ## Spending on Assembling Team
@@ -32,6 +36,7 @@ Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economi
 The model used for salary projection is a multiple linear regression, which considers inflation, team rank and a bonus factor if the team wins the championship for that year.
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png)
 
+---
 
 ## Direct Team Revenues
 Revenue is found to follow an exponential trend, and highly correlated with social media followers and league attendance. Improving these aspects will lead to rapidly inreasing revenue in matchday and commercial areas, despite limited growth in the first few years until 2023.
@@ -39,7 +44,10 @@ Revenue is found to follow an exponential trend, and highly correlated with soci
 
 To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expenses%20analysis%20and%20projections.xlsx')
 
+---
+
 # Economic Impact
+
 
 ## Impact on GDP
 
@@ -56,8 +64,22 @@ The output produced is visualised in the following graph, depicting that in the 
 
 The [code](Economic_Impact_Code.ipynb) and data used to create these insights can be accessed through these links for further understanding of the analysis conducted: [Inflation](Economic_Impact_Data/Inflation.csv)  [Household](Economic_Impact_Data/Household.csv)  [Healthcare](Economic_Impact_Data/Healthcare.csv)  [Population](Economic_Impact_Data/Population.csv)  [GDP](Economic_Impact_Data/GDP.csv)  [Rarita_train](Economic_Impact_Data/Rarita_train.csv) [Rarita_predict](Economic_Impact_Data/Rarita_predict.csv) 
 
+#### Methodology used in code
+1)  Load necessary packages
+2)  Install inflation data in csv
+3)  Create a time series using this data and use an ARIMA model to project this from 2021-2031
+4)  Repeat steps 2 and 3 but instead using household savings data, household spending data, population data and GDP data. 
+5)  Use the forecasted data for 2021-2031 for the prior variables in addition to the forecasted revenue, expenses and profit and create two excel files. The one contraining data from 2011-2020 will be the training set and the one contraining data from 2021-2031 will be the test set. 
+6)  Partition the training data into a test and training set in order to test the accuracy of our model
+7)  Fit a linear regression model using the selected variables (Year, Healthcare and Profit) in order to predict GDP
+8)  Determine the accuracy of this model through the R squared, adjusted R squared, RMSE, MAE, p-value and accuracy of the predictions
+9)  Fit the linear regression on the full training set
+10)  Use this to predict the GDP for 2021-2031
+11)  Graphically compare the GDP for 2021-2031, calculated using a time series, vs the GDP calculated via linear regression, which accounts for the impact of an international football team
+
 ![](gifs/goal.gif)
 
+---
 
 ## Impact on Rarita Provinces
 
@@ -71,12 +93,21 @@ This analysis was conducted through the linked excel [document](Economic_Impact_
 
 ![](gifs/soccer_funny.gif)
 
+---
+
 # Implementation Plan
+
 
 ## Team Selection
 
 ![](Images/Final_Team_Selection.png)
 
+---
+
 ## Sources of Revenue
 Since only a handful of Raritan players are part of the national team, it's an opportunity to showcase other under-utilised players, assuming their guaranteed acceptance into borrowing teams. Loans can be up to 2 years per player, and the lending revenue is projected as follows:
+
+
 ![image](https://user-images.githubusercontent.com/102939582/162356659-332dbe49-fed9-458e-8b4c-34c2dae93b07.png)
+
+---
