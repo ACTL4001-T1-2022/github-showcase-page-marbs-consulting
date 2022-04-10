@@ -78,11 +78,11 @@ Assuming constant and independent probabilities from year to year, they were cal
 
 
 ## Spending on Assembling Team
-Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
+Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Countries that were competitively successful and exhibited the lowest GDP per capita differential with Rarita (Nganion, Galamily, Greri Landmoslands, Sobianitedrucy) were used as benchmarks for expense and revenue projections. This includes expense allocations and growth rates, and revenue streams and growth rates. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its influence.
 ![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png)
-
-The model used for salary projection is a multiple linear regression, which considers inflation, team rank and a bonus factor if the team wins the championship for that year.
+Salary was projected as depicted in the following formula:
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png)
+The key factors include inflation, winning bonus, and the increase in salary from Rarita transitioning to the national-competition level, which was only applied in the first year. 
 
 ---
 
