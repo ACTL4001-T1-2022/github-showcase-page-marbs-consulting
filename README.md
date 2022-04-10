@@ -4,10 +4,10 @@ The following sections explains our methodology of approaching the calculations 
 
 Other relevant files can be found in the folders: 
 - Player analysis and selection code: [Analysis Code](Player%20Analysis%20and%20Prediction.ipynb)
-- Economic analysis: [Economic Code](Economic%20Impact%Code.ipynb)
+- Economic analysis: [Economic Code](Economic%20Impact%Code.R)
 - Data cleaning (Economics): [Economic Data Files](Economic_Impact_Data)
-- Revenue, Expense and Projections: [Revenue and Expenses](Economic_Impact_and_Implementation_Plan_Analysis)
-- Images and tables: [Analysis and Results](Images)
+- Revenue, Expense and Projections: [Revenue and Expenses Files](Economic_Impact_and_Implementation_Plan_Analysis)
+- Images and tables: [Analysis and Results Files](Images)
 
 
 Thank you for reading and please enjoy. 
