@@ -3,7 +3,7 @@
 ![](Images/Marbs%20Consulting.png)
 
 _MARBS Consulting has been hired to form a competitive international football team for Rarita and to analyse the impact of
-building a football “brand” on the economy. We hope to provide insight into our findings through our code, data and key figures._
+building a football “brand” on the economy. The long-term objective is to add positive economic impact through such branding from competitiveness, higher tourism rates, and creating new jobs. We hope to provide insight into our findings through our code, data and key figures._
 
 ---
 # Table of Contents
@@ -75,11 +75,13 @@ Assuming constant and independent probabilities from year to year, they were cal
 
 A binomial probability model was assumed to determine the probability of coming first in ten years. We simplified our assumptions for this calculation because we realised that the were too many factors to assume to make an accurate prediction. For example, it is inevitable that players will be changed across all countries and teams, or that large unpredictable macro events may occur (in our current world, examples include the war in Ukraine, coronavirus pandemic etc.). 
 
-More detail provided in the analysis found here: [Predictions](Player%20Analysis%20and%20Prediction.ipynb)
+More detail provided in the analysis found here [Python Analysis of Team Selection and Prediction of Success](Player Analysis and Prediction Analysis.pdf)
+
+---
 
 
 ## Spending on Assembling Team
-Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Countries that were competitively successful and exhibited the lowest GDP per capita differential with Rarita (Nganion, Galamily, Greri Landmoslands, Sobianitedrucy) were used as benchmarks for expense and revenue projections. This includes expense allocations and growth rates, and revenue streams and growth rates. Expense is forecasted to increase significantly as the team develops and revenues generated are reinvested to ensure the team's consistent improvement and performance. <br> 
+Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Countries that were competitively successful and exhibited the lowest GDP per capita differential with Rarita (Nganion, Galamily, Greri Landmoslands, Sobianitedrucy) were used as benchmarks for expense and revenue projections. This includes expense allocations and growth rates, and revenue streams and growth rates. Expense is forecasted to increase significantly as the team develops and revenues generated are reinvested to ensure the team's consistent improvement and performance. <br> 
 ![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png) <br> 
 Salary was projected as depicted in the following formula: <br>
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png) <br>
@@ -97,7 +99,7 @@ By analysing other countries, we discovered that these factors in turn were sign
 
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
 
-To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expense%20projections%20and%20analysis.xlsx')
+To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx')
 
 ---
 
@@ -158,15 +160,19 @@ In order to calculate the respective impact of GDP on each province various assu
 ![](Images/Percentage_Pop.png)
 
 3)  Using this average percentage, population per province was calculated as seen in the following table.
+
 ![](Images/Pop_per_province.png)
 
 4)  To calculate the total GDP of Rarita from 2021-2031 the forecasted population was multiplied with the predicted GDP per capita. The next step was to determine the percentage of GDP attributable to each province from 2021-2031. The percentage of total GDP for each province was calculated for 2011-2020. It can be seen in the table below that East Rarita’s percentage of total GDP was increasing at the highest rate, followed by West Rarita, with Central Rarita’s percentage of GDP decreasing.
+
 ![](Images/percentage_gdp.png)
 
 5)  As our implementation plan has a focus on decreasing the wealth gap between the provinces, percentage of total GDP per province for 2021-2031 was calculated in accordance. It was assumed that from 2021-2024 the percentage of GDP per province would remain that same as it did in 2020. This is because these years mark the infancy of our newly formed International Team, whilst soccer revenues remained low. However, from 2025-2031 the percentage of total GDP in Central Rarita was assumed to grow at a rate of 1.5% p.a. and the percentage of total GDP in West Rarita was assumed to grow at a rate of 2.5% p.a.
+
 ![](Images/percentage_gdp_projected.png)
 
 6) Using these assumptions, we were able to determine the total GDP per province from 2021-2031
+
 ![](Images/tot_gdp.png)
 
 7) Finally, GDP per capita was calculated as Total_GDP_t/Population_t
@@ -181,6 +187,8 @@ This analysis was conducted through the linked [excel document](Economic_Impact_
 
 
 ## Team Selection
+
+Twenty players have been selected from the model output, according to age, position, and league, as seen below. The first eighteen constitute the main team and substitutes, and the last two may be assigned once a player retires.
 
 ![](Images/Final_Team_Selection.png)
 
