@@ -83,7 +83,7 @@ Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economi
 Salary was projected as depicted in the following formula: <br>
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png) <br>
 The key factors include inflation, winning bonus, and the increase in salary from Rarita transitioning to the national-competition level, which was only applied in the first year. <br>
-![image](Images/salary proj.png)
+![](Images/salary proj.png)
 
 ---
 
