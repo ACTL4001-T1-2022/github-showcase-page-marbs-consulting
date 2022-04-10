@@ -96,7 +96,7 @@ By analysing other countries, we discovered that these factors in turn were sign
 
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
 
-To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expenses%20analysis%20and%20projections.xlsx')
+To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projection%20and%20analysis.xlsx')
 
 ---
 
