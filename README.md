@@ -1,6 +1,11 @@
 # Rarita's National Football Team Plan
 ## Our finalised team report can be found here: [Final Report](MARBS-Rarita-FSA-League-Report-2022.pdf)
-The following sections explains our methodology in more detail and directs our relevant working out with the sections. 
+The following sections explains our methodology of approaching the calculations for the report sections in more detail and directs our relevant working out with the sections. 
+
+Other relevant files can be found in the folders: 
+- Player analysis and selection code: [Analysis Code](Player%20Analysis%20and%20Prediction.ipynb)
+- Economic analysis: [Economic Code](Economic%20Impact%Code.ipynb)
+- Data cleaning (Economics): [Economic Data Files](Economic_Impact_Data)
 Thank you for reading and please enjoy. 
 
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/86867548/162598458-95161ba2-a4f6-4c61-8327-dc2abc8ae6dd.png">
@@ -55,14 +60,7 @@ The details of our working out can be found here: [Prediction Analysis](Player%2
 The below sections provide our explanation of how we proceeded to analyse the data and how the relevant code, excel spreadsheets and results should be interpreted. The appropriate files have been linked. 
 
 ## Criteria for Selection
-A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
-- Goals
-- Shots from free kicks
-- Percentage of passes completed 
-- Percentage of passes completed within 15-30 yards
-- Number of times where a pass was blocked
-- Goals scored against 
-- Penalty kicks missed 
+A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. 
 
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/86867548/162596875-e7c37fd8-9ab4-4cd3-a395-37b38f5457a6.png">
 
@@ -72,7 +70,7 @@ We also qualitatively considered the effect of these to consider how effective t
 
 All the Raritan players were processed through the model again, to select the ideal players that we would use to form our team. 
 
-<img width="798" alt="image" src="https://user-images.githubusercontent.com/86867548/162597021-8a2d556c-72ac-47f5-8e8f-1b7794e0677c.png">
+Further details can be found in the Python code above. The results can be found in our Final Report. 
 
 ---
 
@@ -84,9 +82,8 @@ A binomial probability model was assumed to determine the probability of coming 
 
 ---
 
-
 ## Spending on Assembling Team
-Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Countries that were competitively successful and exhibited the lowest GDP per capita differential with Rarita (Nganion, Galamily, Greri Landmoslands, Sobianitedrucy) were used as benchmarks for expense and revenue projections. This includes expense allocations and growth rates, and revenue streams and growth rates. Expense is forecasted to increase significantly as the team develops and revenues generated are reinvested to ensure the team's consistent improvement and performance. <br> 
+Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/MARBS%20-%20Salary,%20revenue%20and%20expense%20projections%20and%20analysis.xlsx) were carried out as part of introducing the national team. Countries that were competitively successful and exhibited the lowest GDP per capita differential with Rarita (Nganion, Galamily, Greri Landmoslands, Sobianitedrucy) were used as benchmarks for expense and revenue projections. This includes expense allocations and growth rates, and revenue streams and growth rates. Expense is forecasted to increase significantly as the team develops and revenues generated are reinvested to ensure the team's consistent improvement and performance. <br> 
 ![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png) <br> 
 Salary was projected as depicted in the following formula: <br>
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png) <br>
@@ -104,7 +101,7 @@ By analysing other countries, we discovered that these factors in turn were sign
 
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
 
-To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx')
+To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/MARBS%20-%20Salary,%20revenue%20and%20expense%20projections%20and%20analysis.xlsx)
 
 ---
 
