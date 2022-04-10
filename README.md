@@ -1,4 +1,9 @@
 # Rarita's National Football Team Plan
+## Navigation  
+Our finalised team report can be found here: [Final Report](MARBS-Rarita-FSA-League-Report-2022.pdf)
+
+The following sections explains our methodology in more detail and directs our relevant working out with the sections. 
+Thank you for reading and please enjoy. 
 
 ![](Images/Marbs%20Consulting.png)
 
