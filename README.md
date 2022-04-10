@@ -128,14 +128,14 @@ The [code](Economic_Impact_Code.ipynb) and data used to create these insights ca
 
 #### Methodology used in economic impact code
 1)  Load necessary packages
-2)  Install inflation data in csv
+2)  Install inflation data csv
 3)  Create a time series using this data and use an ARIMA model to project this from 2021-2031
 4)  Repeat steps 2 and 3 but instead using household savings data, household spending data, population data and GDP data. 
-5)  Use the forecasted data for 2021-2031 for the prior variables in addition to the forecasted revenue, expenses and profit and create two excel files. The one contraining data from 2011-2020 will be the training set and the one contraining data from 2021-2031 will be the test set. 
+5)  Create two excel files including forecasted data for 2021-2031 for the prior variables in addition to the forecasted revenue, expenses and profit. The file containing data from 2011-2020 will be the training set and the file containing data from 2021-2031 will be the test set. 
 6)  Partition the training data into a test and training set in order to test the accuracy of our model
 7)  Fit a linear regression model using the selected variables (Year, Healthcare and Profit) in order to predict GDP
-8)  Determine the accuracy of this model through the R squared, adjusted R squared, RMSE, MAE, p-value and accuracy of the predictions
-9)  Fit the linear regression on the full training set
+8)  Determine the accuracy of this model through calculating the R squared, adjusted R squared, RMSE, MAE, p-value and accuracy of the predictions
+9)  Fit the linear regression onto the full training set
 10)  Use this to predict the GDP for 2021-2031
 11)  Graphically compare the GDP for 2021-2031, calculated using a time series, vs the GDP calculated via linear regression, which accounts for the impact of an international football team
 
@@ -145,17 +145,7 @@ The [code](Economic_Impact_Code.ipynb) and data used to create these insights ca
 
 ## Impact on Rarita Provinces
 
-East Rarita is the wealthiest province, with a GDP per capita 135% greater than Central Rarita and 410% greater than West Rarita in 2020. Through our implementation plan we aim to lessen the gap by predominately hiring staff from West/Central Rarita, targeting businesses from West/Central Rarita through commercials and as sponsors of our team and by preferencing these locations for future investment projects such as stadiums, soccer schools, merchandise warehouses and TV series. 
-
-As seen in below, whilst the GDP of all provinces are increasing, Central Rarita and West Rarita have experienced a respective 84.77% and 97.90% increase in GDP per capita from 2021-2031 as opposed to 30.27% for East Rarita.
-
-
-![](Images/GDP_per_province.png)
-
-![](Images/GDP_per_province_table.png)
-
-
-In order to calculate the respective impact of GDP on each province various assumptions were used, which are outlined in the following methodology
+In order to calculate the respective impact of GDP on each province various assumptions were used, which are outlined in the following methodology. These assumptions took into account our aim of decreasing the wealth gap between the provinces. This is outlined further in our [report](MARBS-Rarita-FSA-League-Report-2022.pdf).
 
 ### Methodology used to determine the impact on Rarita Provinces
 1)  The population of Rarita from 2021-2031 was projected using a [time series](Economic%20Impact%20Code.ipynb)
@@ -180,9 +170,14 @@ In order to calculate the respective impact of GDP on each province various assu
 
 ![](Images/tot_gdp.png)
 
-7) Finally, GDP per capita was calculated as Total_GDP_t/Population_t
+7) Finally, GDP per capita was calculated as Total_GDP_t/Population_t as seen below.
 
-This analysis was conducted through the linked [excel document](Economic_Impact_and_Implementation_Plan_Analysis/Rarita_GDP_Economic_Impact.xlsx) 
+![](Images/GDP_per_province_table.png)
+
+
+![](Images/GDP_per_province.png)
+
+This analysis was conducted in the linked [excel document](Economic_Impact_and_Implementation_Plan_Analysis/Rarita_GDP_Economic_Impact.xlsx) 
 
 ![](gifs/soccer_funny.gif)
 
