@@ -50,6 +50,8 @@ building a football “brand” on the economy. The long-term objective is to ad
 # How did we choose our International Football Team?
 
 The details of our working out can be found here: [Prediction Analysis](Player%20Analysis%20and%20Prediction.ipynb) 
+
+
 The below sections provide our explanation of how we proceeded to analyse the data and how the relevant code, excel spreadsheets and results should be interpreted. The appropriate files have been linked. 
 
 ## Criteria for Selection
