@@ -55,14 +55,7 @@ The details of our working out can be found here: [Prediction Analysis](Player%2
 The below sections provide our explanation of how we proceeded to analyse the data and how the relevant code, excel spreadsheets and results should be interpreted. The appropriate files have been linked. 
 
 ## Criteria for Selection
-A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
-- Goals
-- Shots from free kicks
-- Percentage of passes completed 
-- Percentage of passes completed within 15-30 yards
-- Number of times where a pass was blocked
-- Goals scored against 
-- Penalty kicks missed 
+A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. 
 
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/86867548/162596875-e7c37fd8-9ab4-4cd3-a395-37b38f5457a6.png">
 
@@ -72,7 +65,7 @@ We also qualitatively considered the effect of these to consider how effective t
 
 All the Raritan players were processed through the model again, to select the ideal players that we would use to form our team. 
 
-<img width="798" alt="image" src="https://user-images.githubusercontent.com/86867548/162597021-8a2d556c-72ac-47f5-8e8f-1b7794e0677c.png">
+Further details can be found in the Python code above. The results can be found in our Final Report. 
 
 ---
 
@@ -83,7 +76,6 @@ Assuming constant and independent probabilities from year to year, they were cal
 A binomial probability model was assumed to determine the probability of coming first in ten years. We simplified our assumptions for this calculation because we realised that the were too many factors to assume to make an accurate prediction. For example, it is inevitable that players will be changed across all countries and teams, or that large unpredictable macro events may occur (in our current world, examples include the war in Ukraine, coronavirus pandemic etc.). 
 
 ---
-
 
 ## Spending on Assembling Team
 Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Countries that were competitively successful and exhibited the lowest GDP per capita differential with Rarita (Nganion, Galamily, Greri Landmoslands, Sobianitedrucy) were used as benchmarks for expense and revenue projections. This includes expense allocations and growth rates, and revenue streams and growth rates. Expense is forecasted to increase significantly as the team develops and revenues generated are reinvested to ensure the team's consistent improvement and performance. <br> 
