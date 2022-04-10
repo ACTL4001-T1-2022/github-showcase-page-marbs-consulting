@@ -90,12 +90,14 @@ A binomial probability model was assumed to determine the probability of coming 
 3) Removed Dosqaly, which had no goalkeeper and removed stats that had no data for at least one country.
 4) Trained a Lasso CV model to avoid overfitting, predicting rank in the 2021 tournament using the country stats.
 5) Obtained the coefficients of the model.
-6) League data from 2021 was used to determine the stat of each player from Rarita.
-7) Determined the 'value' of each player by using the coefficients from the model.
-8) Determined the best players for each position based on the value, with other qualitative factors like age considered.
-9) Used the Lasso model to predict the rank of the team using the selected players.
-10) Variance of the prediction calcualted from the residuals of the regression model.
-11) Probability ranges determined from the error variance.
+6) Evaluated model based on CV score and by testing on 2020 Tournament data.
+7) League data from 2021 was used to determine the stat of each player from Rarita.
+8) Determined the 'value' of each player by using the coefficients from the model.
+9) Determined the best players for each position based on the value, with other qualitative factors like age considered.
+10) Used the Lasso model to predict the rank of the team using the selected players.
+11) Variance of the prediction calcualted from the residuals of the regression model.
+12) Probability ranges determined from the error variance.
+
 ---
 
 ## Spending on Assembling Team
