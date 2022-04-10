@@ -1,11 +1,9 @@
 # Rarita's National Football Team Plan
-## Navigation  
-Our finalised team report can be found here: [Final Report](MARBS-Rarita-FSA-League-Report-2022.pdf)
-
+## Our finalised team report can be found here: [Final Report](MARBS-Rarita-FSA-League-Report-2022.pdf)
 The following sections explains our methodology in more detail and directs our relevant working out with the sections. 
 Thank you for reading and please enjoy. 
 
-![](Images/Marbs%20Consulting.png)
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/86867548/162598458-95161ba2-a4f6-4c61-8327-dc2abc8ae6dd.png">
 
 _MARBS Consulting has been hired to form a competitive international football team for Rarita and to analyse the impact of
 building a football “brand” on the economy. The long-term objective is to add positive economic impact through such branding from competitiveness, higher tourism rates, and creating new jobs. We hope to provide insight into our findings through our code, data and key figures._
