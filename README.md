@@ -204,4 +204,4 @@ Further insight into sources of revenue calculations can be seen in the followin
 
 # Conclusion
 
-Furthermore, through the analysis outlined above we were able to reach our objective of building a football "brand" in Rarita. For more detailed explanation's regarding our objectives, team selection, economic impact, implementation plan, assumptions, risk and risk mitigation considerations and data and limitations please read our [report](MARBS-Rarita-FSA-League-Report-2022.pdf) 
+Furthermore, through the analysis outlined above we were able to reach our objective of building a football "brand" in Rarita. For more detailed explanation's regarding our objectives, team selection, economic impact, implementation plan, assumptions, risk and risk mitigation considerations and data and limitations please read our [report](MARBS-Rarita-FSA-League-Report-2022.pdf).
