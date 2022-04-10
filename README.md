@@ -156,6 +156,7 @@ In order to calculate the respective impact of GDP on each province various assu
 1)  The population of Rarita from 2021-2031 was projected using a [time series](Economic%20Impact%20Code.ipynb)
 
 2)  To ascertain how the population would be distributed within Rarita’s various provinces, the percentage of population residing in each province was calculated from 2011-2021. The average population percentage from 2011-2021 was assumed to demonstrate how the population would be distributed between the provinces in 2021-2031.
+
 ![](Images/Percentage_Pop.png)
 
 3)  Using this average percentage, population per province was calculated as seen in the following table.
