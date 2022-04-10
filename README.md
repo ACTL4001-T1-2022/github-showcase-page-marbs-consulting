@@ -96,7 +96,6 @@ A binomial probability model was assumed to determine the probability of coming 
 9) Used the Lasso model to predict the rank of the team using the selected players.
 10) Variance of the prediction calcualted from the residuals of the regression model.
 11) Probability ranges determined from the error variance.
-
 ---
 
 ## Spending on Assembling Team
