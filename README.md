@@ -110,7 +110,6 @@ Since only a handful of Raritan players are part of the national team, it's an o
 
 ![image](https://user-images.githubusercontent.com/102939582/162356659-332dbe49-fed9-458e-8b4c-34c2dae93b07.png)
 
-<<<<<<< HEAD
 Further insight into sources of revenue calculations can be seen in the following [excel file](Economic_Impact_and_Implementation_Plan_Analysis/MARBS%20-%20Implementation%20Plan%20Sources%20of%20Revenue%2C%20Player%20Lending.xlsx)
 
 
