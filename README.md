@@ -75,8 +75,7 @@ Assuming constant and independent probabilities from year to year, they were cal
 
 A binomial probability model was assumed to determine the probability of coming first in ten years. We simplified our assumptions for this calculation because we realised that the were too many factors to assume to make an accurate prediction. For example, it is inevitable that players will be changed across all countries and teams, or that large unpredictable macro events may occur (in our current world, examples include the war in Ukraine, coronavirus pandemic etc.). 
 
-More detail provided in the analysis found in [Predictions] (https://github.com/ACTL4001-T1-2022/github-showcase-page-marbs-consulting/blob/3b49c4f26ff36d1b9bab2d8323a4be33a7f6162c/Player%20Analysis%20and%20Prediction%20Analysis.pdf---)
-
+More detail provided in the analysis found here: [Predictions](Player%20Analysis%20and%20Prediction.ipynb)
 
 
 ## Spending on Assembling Team
