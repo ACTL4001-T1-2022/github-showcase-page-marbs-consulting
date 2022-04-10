@@ -50,6 +50,7 @@ building a football “brand” on the economy. The long-term objective is to ad
 # How did we choose our International Football Team?
 
 The details of our working out can be found here: [Prediction Analysis](Player%20Analysis%20and%20Prediction.ipynb) 
+The below sections provide our explanation of how we proceeded to analyse the data and how the relevant code, excel spreadsheets and results should be interpreted. The appropriate files have been linked. 
 
 ## Criteria for Selection
 A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
