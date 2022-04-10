@@ -3,7 +3,7 @@
 The following sections explains our methodology of approaching the calculations for the report sections in more detail and directs our relevant working out with the sections. 
 
 Other relevant files can be found in the folders: 
-- Player analysis and selection code: [Analysis Code](Player%Selection)
+- Player analysis and selection code: [Analysis Code](Player Selection)
 - Economic analysis: [Economic Code](Economic_Impact_Code.ipynb)
 - Data cleaning (Economics): [Economic Data Files](Economic_Impact_Data)
 - Revenue, Expense and Projections: [Revenue and Expenses Files](Economic_Impact_and_Implementation_Plan_Analysis)
