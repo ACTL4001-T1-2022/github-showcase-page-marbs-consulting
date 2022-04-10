@@ -89,6 +89,10 @@ The key factors include inflation, winning bonus, and the increase in salary fro
 ## Direct Team Revenues
 Revenue is found to follow an exponential trend, and highly correlated with social media followers and league attendance. Improving these aspects will lead to rapidly inreasing revenue in matchday and commercial areas, despite limited growth in the first few years until 2023.
 
+<img width="923" alt="image" src="https://user-images.githubusercontent.com/86867548/162597182-d1035584-e6a6-4f50-8957-3c0dab0b53ed.png">
+
+By analysing other countries, we discovered that these factors in turn were significantly correlated with their rank in the tournament, especially if they won the tournament. We constructed a model that allocated an increase in revenue based on the probability of ranking. It also took into account inflation and external factors such as an increase in tourism or investment into the teams. 
+
 ![image](https://user-images.githubusercontent.com/102939582/162356164-a29a9085-3625-4f77-8e37-70559a83a5ab.png)
 
 To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expenses%20analysis%20and%20projections.xlsx')
