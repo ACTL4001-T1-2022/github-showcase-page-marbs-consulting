@@ -51,7 +51,7 @@ To see the detailed calculations, go to [Team_Revenue_Projection](Economic_Impac
 
 ## Impact on GDP
 
-The impact of the implementation plan on GDP was modelled through linear regression using Year, Household Savings, Revenue and Expenses as predictors. Healthcare was forecasted using an ARIMA (0,1,0) model with drift, while revenue and expenses were forecasted according to benchmark countries. The following regression model was used:
+The impact of the implementation plan on GDP was modelled through a linear regression using Year, Household Savings and Profit as predictors. Healthcare was forecasted using an ARIMA (0,1,0) model with drift, while revenue and expenses were forecasted according to benchmark countries. The following regression model was used:
 
 ![](Images/GDP_reg_equation.png)
 
@@ -64,7 +64,7 @@ The output produced is visualised in the following graph, depicting that in the 
 
 The [code](Economic_Impact_Code.ipynb) and data used to create these insights can be accessed through these links for further understanding of the analysis conducted: [Inflation](Economic_Impact_Data/Inflation.csv)  [Household](Economic_Impact_Data/Household.csv)  [Healthcare](Economic_Impact_Data/Healthcare.csv)  [Population](Economic_Impact_Data/Population.csv)  [GDP](Economic_Impact_Data/GDP.csv)  [Rarita_train](Economic_Impact_Data/Rarita_train.csv) [Rarita_predict](Economic_Impact_Data/Rarita_predict.csv) 
 
-#### Methodology used in code
+#### Methodology used in economic impact code
 1)  Load necessary packages
 2)  Install inflation data in csv
 3)  Create a time series using this data and use an ARIMA model to project this from 2021-2031
@@ -109,5 +109,8 @@ Since only a handful of Raritan players are part of the national team, it's an o
 
 
 ![image](https://user-images.githubusercontent.com/102939582/162356659-332dbe49-fed9-458e-8b4c-34c2dae93b07.png)
+
+Further insight into sources of revenue calculations can be seen in the following [excel file](Economic_Impact_and_Implementation_Plan_Analysis/MARBS%20-%20Implementation%20Plan%20Sources%20of%20Revenue%2C%20Player%20Lending.xlsx)
+
 
 ---
