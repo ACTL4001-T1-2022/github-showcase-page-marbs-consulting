@@ -34,7 +34,7 @@ building a football “brand” on the economy. We hope to provide insight into 
     <li>
       <a href="#implementation-plan">Implementation Plan</a>
       <ol>
-        <li><a href="#team-selection">Implementation Plan</a></li>
+        <li><a href="#team-selection">Team Selection</a></li>
         <li><a href="#sources-of-revenue">Sources of Revenue</a></li>
       </ol>
      </li>
