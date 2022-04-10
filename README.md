@@ -115,6 +115,3 @@ Further insight into sources of revenue calculations can be seen in the followin
 
 
 ---
-=======
----
->>>>>>> dcf1cff7f420c14dec109c0035c1d804c4604ff8
