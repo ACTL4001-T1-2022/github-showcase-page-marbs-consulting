@@ -1,6 +1,11 @@
 # Rarita's National Football Team Plan
 ## Our finalised team report can be found here: [Final Report](MARBS-Rarita-FSA-League-Report-2022.pdf)
-The following sections explains our methodology in more detail and directs our relevant working out with the sections. 
+The following sections explains our methodology of approaching the calculations for the report sections in more detail and directs our relevant working out with the sections. 
+
+Other relevant files can be found in the folders: 
+- Player analysis and selection code: [Analysis Code](Player%20Analysis%20and%20Prediction.ipynb)
+- Economic analysis: [Economic Code](Economic%20Impact%Code.ipynb)
+- Data cleaning (Economics): [Economic Data Files](Economic_Impact_Data)
 Thank you for reading and please enjoy. 
 
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/86867548/162598458-95161ba2-a4f6-4c61-8327-dc2abc8ae6dd.png">
