@@ -70,7 +70,7 @@ All the Raritan players were processed through the model again, to select the id
 ---
 
 ## Probability Ranges of the Success being Competitive
-
+We used 
 Assuming constant and independent probabilities from year to year, they were calculated as follows:
 ![image](https://user-images.githubusercontent.com/102939582/162353720-439c4d18-5484-4d2b-9150-02f39005e750.png)
 
