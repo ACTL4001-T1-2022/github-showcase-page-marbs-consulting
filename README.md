@@ -49,6 +49,7 @@ building a football “brand” on the economy. The long-term objective is to ad
 
 # How did we choose our International Football Team?
 
+The details of our working out can be found here:[Python Analysis of Team Selection and Prediction of Success](Player Analysis and Prediction Analysis.pdf)
 
 ## Criteria for Selection
 A lasso regression model using performance features (e.g., tournament shooting, passing etc.) of each nation was used to predict their 2021 team rank. As the lasso regression model penalises non-significant features, we were able to obtain the most important variables based on their contribution to predicting 2021 tournament rank. Such variables were the following:
@@ -77,8 +78,6 @@ Assuming constant and independent probabilities from year to year, they were cal
 ![image](https://user-images.githubusercontent.com/102939582/162353720-439c4d18-5484-4d2b-9150-02f39005e750.png)
 
 A binomial probability model was assumed to determine the probability of coming first in ten years. We simplified our assumptions for this calculation because we realised that the were too many factors to assume to make an accurate prediction. For example, it is inevitable that players will be changed across all countries and teams, or that large unpredictable macro events may occur (in our current world, examples include the war in Ukraine, coronavirus pandemic etc.). 
-
-More detail provided in the analysis found here [Python Analysis of Team Selection and Prediction of Success](Player Analysis and Prediction Analysis.pdf)
 
 ---
 
