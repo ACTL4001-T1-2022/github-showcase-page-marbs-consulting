@@ -31,7 +31,7 @@ Assuming constant and independent probabilities from year to year, they were cal
 
 
 ## Spending on Assembling Team
-Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20revenue%20and%20expenses%20analysis%20and%20projections.xlsx') were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
+Projections of salaries and expenses in [Salary_and_Expenses_Projection](Economic_Impact_and_Implementation_Plan_Analysis/'MARBS%20-%20Salary,%20Revenue%20and%20Expense%20projections%20and%20analysis.xlsx') were carried out as part of introducing the national team. Other countries' growth were used as benchmarks of growth rate for Rarita. Even though growth is quite stunted in the first few years, growth is forecasted to rise significantly in the latter part of the decade, as the team expands its outreach.
 ![image](https://user-images.githubusercontent.com/102939582/162355978-0c9e29c5-8326-4c57-bc0b-61be66226716.png)
 The model used for salary projection is a multiple linear regression, which considers inflation, team rank and a bonus factor if the team wins the championship for that year.
 ![image](https://user-images.githubusercontent.com/102939582/162356375-73927009-6edc-459f-beba-45850ca48c06.png)
@@ -110,7 +110,11 @@ Since only a handful of Raritan players are part of the national team, it's an o
 
 ![image](https://user-images.githubusercontent.com/102939582/162356659-332dbe49-fed9-458e-8b4c-34c2dae93b07.png)
 
+<<<<<<< HEAD
 Further insight into sources of revenue calculations can be seen in the following [excel file](Economic_Impact_and_Implementation_Plan_Analysis/MARBS%20-%20Implementation%20Plan%20Sources%20of%20Revenue%2C%20Player%20Lending.xlsx)
 
 
 ---
+=======
+---
+>>>>>>> dcf1cff7f420c14dec109c0035c1d804c4604ff8
