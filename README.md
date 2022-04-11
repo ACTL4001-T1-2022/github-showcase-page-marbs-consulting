@@ -27,7 +27,7 @@ building a football “brand” on the economy. The long-term objective is to ad
       <a href="#how-did-we-choose-our-international-football-team?">How did we choose our International Football Team</a>
        <ol>
        <li><a href="#criteria-for-selection">Criteria for Selection</a></li>
-        <li><a href="#probability-ranges-of-the-success-being-competitive">Probability Ranges of the Success being Competitive</a></li>
+       <li><a href="#probability-ranges-of-the-success-being-competitive">Probability Ranges of the Success being Competitive</a></li>
     </li>
     <li>
       <a href="#spending-on-assembling-team">Spending on Assembling Team</a>
