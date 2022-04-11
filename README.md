@@ -18,43 +18,7 @@ _MARBS Consulting has been hired to form a competitive international football te
 building a football “brand” on the economy. The long-term objective is to add positive economic impact through such branding from competitiveness, higher tourism rates, and creating new jobs. We hope to provide insight into our findings through our code, data and key figures._
 
 ---
-# Table of Contents
-<!-- TABLE OF CONTENTS -->
-<details open>
-  <summary style = "font-size:13pt;">Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#how-did-we-choose-our-international-football-team?">How did we choose our International Football Team</a>
-       <ol>
-       <li><a href="#criteria-for-selection">Criteria for Selection</a></li>
-        <li><a href="#probability-ranges-of-the-success-being-competitive">Probability Ranges of the Success being Competitive</a></li>
-    </li>
-    <li>
-      <a href="#spending-on-assembling-team">Spending on Assembling Team</a>
-    </li>
-    <li>
-      <a href="#direct-team-revenues">Direct Team Revenues</a>
-       </ol>
-    </li>
-    <li>
-      <a href="#economic-impact">Economic Impact</a>
-      <ol>
-        <li><a href="#impact-on-gdp">Impact on GDP</a></li>
-        <li><a href="#impact-on-rarita-provinces">Impact on Rarita Provinces</a></li>
-      </ol>
-    </li>
-    <li>
-      <a href="#implementation-plan">Implementation Plan</a>
-      <ol>
-        <li><a href="#team-selection">Team Selection</a></li>
-        <li><a href="#sources-of-revenue">Sources of Revenue</a></li>
-      </ol>
-     </li>
-    <li>
-      <a href="#conclusion">Conclusion</a>
-    </li>
-  </ol>
-</details>
+
 
 
 # How did we choose our International Football Team?
